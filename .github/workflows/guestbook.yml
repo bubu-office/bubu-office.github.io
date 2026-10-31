@@ -1,0 +1,24 @@
+name: 存訪客留言
+on:
+  schedule:
+    - cron: "*/30 * * * *"
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: guestbook
+  cancel-in-progress: false
+jobs:
+  archive:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: python3 scripts/archive_guestbook.py
+      - name: commit
+        run: |
+          if git diff --quiet guestbook.json; then echo "沒有新留言"; exit 0; fi
+          git config user.name "bubu-office-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add guestbook.json
+          git commit -m "存訪客留言"
+          git push
