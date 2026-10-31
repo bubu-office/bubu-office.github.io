@@ -1,21 +1,62 @@
 {
- "updatedAt": "2026-11-01 00:11",
+ "updatedAt": "2026-11-01 00:36",
  "currentTask": "",
  "tasks": [
-  { "title": "派工台上線", "state": "完成" }
+  {
+   "title": "派工台上線",
+   "state": "完成"
+  },
+  {
+   "title": "測試：派工台連線測試，請忽略",
+   "state": "等你確認"
+  }
  ],
  "members": {
-  "nori":   { "state": "完成", "doing": "派工台上線", "outputs": [ { "title": "辦公室新網址", "url": "https://a0932192817-ctrl.github.io/" } ] },
-  "plan":   { "state": "待命", "doing": "", "outputs": [] },
-  "script": { "state": "待命", "doing": "", "outputs": [] },
-  "art":    { "state": "待命", "doing": "", "outputs": [] },
-  "data":   { "state": "待命", "doing": "", "outputs": [] }
+  "nori": {
+   "state": "完成",
+   "doing": "派工台上線",
+   "outputs": [
+    {
+     "title": "辦公室新網址",
+     "url": "https://a0932192817-ctrl.github.io/"
+    }
+   ]
+  },
+  "plan": {
+   "state": "待命",
+   "doing": "",
+   "outputs": []
+  },
+  "script": {
+   "state": "待命",
+   "doing": "",
+   "outputs": []
+  },
+  "art": {
+   "state": "待命",
+   "doing": "",
+   "outputs": []
+  },
+  "data": {
+   "state": "待命",
+   "doing": "",
+   "outputs": []
+  }
  },
  "decisions": [],
  "routines": [
-  { "when": "每天中午 12 點", "what": "布布脆文草稿（要你回「發」才發）" },
-  { "when": "平日早上 8:15 左右", "what": "早盤報告" },
-  { "when": "平日晚上 8:45 左右", "what": "夜盤報告" }
+  {
+   "when": "每天中午 12 點",
+   "what": "布布脆文草稿（要你回「發」才發）"
+  },
+  {
+   "when": "平日早上 8:15 左右",
+   "what": "早盤報告"
+  },
+  {
+   "when": "平日晚上 8:45 左右",
+   "what": "夜盤報告"
+  }
  ],
  "doneToday": {
   "date": "2026-10-31",
