@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-11-01 00:42",
-  "currentTask": "大家給點辦公室設施意見",
+  "updatedAt": "2026-11-01 00:45",
+  "currentTask": "",
   "tasks": [
     {
       "title": "大家給點辦公室設施意見",
-      "state": "工作中"
+      "state": "等你決定"
     },
     {
       "title": "派工台上線",
@@ -13,8 +13,8 @@
   ],
   "members": {
     "nori": {
-      "state": "工作中",
-      "doing": "等艾蒂和帕蕾的意見，整理成清單",
+      "state": "完成",
+      "doing": "設施點子清單已整理好，等老闆挑",
       "outputs": [
         {
           "title": "辦公室新網址",
@@ -23,9 +23,13 @@
       ]
     },
     "plan": {
-      "state": "工作中",
-      "doing": "想辦公室新設施點子",
-      "outputs": []
+      "state": "待命",
+      "doing": "",
+      "outputs": [
+        {
+          "title": "五個設施點子"
+        }
+      ]
     },
     "script": {
       "state": "待命",
@@ -33,9 +37,13 @@
       "outputs": []
     },
     "art": {
-      "state": "工作中",
-      "doing": "看畫面哪裡可以擺新設施",
-      "outputs": []
+      "state": "待命",
+      "doing": "",
+      "outputs": [
+        {
+          "title": "五個畫面建議"
+        }
+      ]
     },
     "data": {
       "state": "待命",
