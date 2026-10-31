@@ -1,7 +1,11 @@
 {
- "updatedAt": "2026-11-01 00:40",
- "currentTask": "",
+ "updatedAt": "2026-11-01 00:41",
+ "currentTask": "大家給點辦公室設施意見",
  "tasks": [
+  {
+   "title": "大家給點辦公室設施意見",
+   "state": "等你確認"
+  },
   {
    "title": "派工台上線",
    "state": "完成"
