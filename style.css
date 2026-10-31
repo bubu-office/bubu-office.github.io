@@ -49,3 +49,50 @@ html,body{margin:0;background:#FCFCFC;color:#141414;font-family:-apple-system,Bl
 .gbitem{padding:10px 14px;border-radius:12px;background:#FFF6F8;border:1px solid #F3D9E0}
 .gbmeta{display:flex;gap:8px;align-items:baseline;font-size:14px}
 .gbtext{margin-top:4px;font-size:15px;line-height:1.6;white-space:pre-wrap;overflow-wrap:anywhere;word-break:break-word}
+.desklink{align-self:flex-start;margin-top:-16px;display:inline-flex;align-items:center;gap:4px;padding:6px 12px;border-radius:999px;border:1px solid #E6D3BC;background:#FFF8EE;color:#7A4E2D;font-size:13px;font-weight:600;text-decoration:none}
+.dpage{max-width:1120px;gap:22px;padding-top:20px}
+.dpage h2{margin:0 0 10px;font-size:18px;font-weight:650}
+.dhead{display:flex;gap:12px;justify-content:space-between;align-items:flex-start;flex-wrap:wrap}
+.dhead h1{margin:0;font-size:24px;font-weight:650}
+.dheadbtns{display:flex;gap:8px}
+.btn.dsmall{min-height:36px;font-size:13px;display:inline-flex;align-items:center;text-decoration:none}
+.btn.dbig{min-height:48px;font-size:16px;padding:0 22px}
+.dcard{border:1px solid #EAD9C4;border-radius:14px;background:#FFFBF5;padding:14px}
+.dsum{display:flex;gap:8px;flex-wrap:wrap;margin-top:-8px}
+.dpill{display:inline-flex;align-items:baseline;gap:6px;padding:7px 14px;border-radius:999px;background:#fff;border:1px solid #EAD9C4;font-size:14px;color:#14141499}
+.dpill b{font-size:19px;color:#141414;font-variant-numeric:tabular-nums}
+.dpill.warn{background:#FFF4DB;border-color:#F0C873}.dpill.warn b{color:#8A5A00}
+.dsend{display:flex;flex-direction:column;gap:12px;box-shadow:0 2px 10px rgba(140,95,60,.08)}
+.dact{display:flex;flex-wrap:wrap;gap:12px;align-items:center}
+.dnote{margin:0;font-size:14px;line-height:1.6;color:#14141499}
+.dnote.ok{color:#00663A;font-weight:600}.dnote.bad{color:#B4232F;font-weight:600}
+.dmanual{display:flex;flex-direction:column;gap:8px}
+.dmanual textarea{font:inherit;font-size:16px;padding:10px 12px;border:2px dashed #E0A040;border-radius:8px;background:#fff;-webkit-user-select:text;user-select:text}
+.ddec{background:#FFF4DB;border-color:#F0C873}
+.ddecitem{display:flex;flex-direction:column;gap:10px;padding:6px 0}
+.ddecq{display:flex;gap:10px;align-items:center;font-size:15px;line-height:1.5}.ddecq b{margin-right:6px}
+.ddecbtns{display:flex;flex-wrap:wrap;gap:8px}.ddecbtns .btn{min-height:44px;text-align:left}
+.dmembers{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:12px}
+.dmem{cursor:pointer;display:flex;flex-direction:column;gap:8px;transition:border-color .15s}
+.dmem.on{border-color:#8C5F3C;box-shadow:0 0 0 2px rgba(140,95,60,.18)}
+.dmemtop{display:flex;gap:10px;align-items:center}
+.dmemname{display:flex;flex-direction:column;gap:4px;align-items:flex-start;font-size:15px}
+.dmemdoing{font-size:14px;line-height:1.55;color:#141414CC}
+.dav{flex:0 0 52px;width:52px;height:52px;border-radius:50%;background:#F3E6D6;overflow:hidden;display:inline-flex;align-items:flex-start;justify-content:center}
+.dav img{width:100%;height:auto;margin-top:-2px;object-fit:cover;object-position:top}
+.dbadge{display:inline-block;padding:2px 9px;border-radius:999px;font-size:12px;font-weight:600;white-space:nowrap;background:#14141410;color:#141414}
+.dbadge.s1{background:#E3F6EC;color:#00663A}.dbadge.s2{background:#FFF4DB;color:#8A5A00}.dbadge.s3{background:#E6EEFB;color:#2B57A6}
+.dout{margin:0;padding-left:18px;font-size:13px;line-height:1.6;color:#14141499}
+.dout a{color:#7A4E2D}
+.dlist{display:flex;flex-direction:column;padding:4px 14px}
+.drow{display:flex;gap:10px;justify-content:space-between;align-items:center;padding:10px 0;border-bottom:1px solid #EAD9C455;font-size:15px;line-height:1.5}
+.drow:last-child{border-bottom:0}
+.drow.col{flex-direction:column;align-items:flex-start;gap:2px}
+.dsenttext{overflow-wrap:anywhere;word-break:break-word}
+.dtwo{display:grid;grid-template-columns:1fr 1fr;gap:22px}
+@media (max-width:720px){.dtwo{grid-template-columns:1fr}.dmembers{grid-template-columns:1fr 1fr}.dhead h1{font-size:21px}}
+@media (max-width:420px){.dmembers{grid-template-columns:1fr}}
+.dlock{max-width:380px;margin:8vh auto 0;display:flex;flex-direction:column;gap:14px;padding:24px 20px;border:1px solid #EAD9C4;border-radius:18px;background:#FFFBF5;box-shadow:0 4px 18px rgba(140,95,60,.10)}
+.dlock h1{margin:0;font-size:24px}.dlock .summary{margin:0}
+.dlockicon{font-size:34px}
+.dback{font-size:14px;color:#7A4E2D;text-decoration:none}
