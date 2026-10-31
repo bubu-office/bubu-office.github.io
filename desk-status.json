@@ -1,70 +1,70 @@
 {
- "updatedAt": "2026-11-01 00:41",
- "currentTask": "大家給點辦公室設施意見",
- "tasks": [
-  {
-   "title": "大家給點辦公室設施意見",
-   "state": "等你確認"
-  },
-  {
-   "title": "派工台上線",
-   "state": "完成"
-  }
- ],
- "members": {
-  "nori": {
-   "state": "完成",
-   "doing": "派工台上線",
-   "outputs": [
+  "updatedAt": "2026-11-01 00:42",
+  "currentTask": "大家給點辦公室設施意見",
+  "tasks": [
     {
-     "title": "辦公室新網址",
-     "url": "https://a0932192817-ctrl.github.io/"
+      "title": "大家給點辦公室設施意見",
+      "state": "工作中"
+    },
+    {
+      "title": "派工台上線",
+      "state": "完成"
     }
-   ]
+  ],
+  "members": {
+    "nori": {
+      "state": "工作中",
+      "doing": "等艾蒂和帕蕾的意見，整理成清單",
+      "outputs": [
+        {
+          "title": "辦公室新網址",
+          "url": "https://a0932192817-ctrl.github.io/"
+        }
+      ]
+    },
+    "plan": {
+      "state": "工作中",
+      "doing": "想辦公室新設施點子",
+      "outputs": []
+    },
+    "script": {
+      "state": "待命",
+      "doing": "",
+      "outputs": []
+    },
+    "art": {
+      "state": "工作中",
+      "doing": "看畫面哪裡可以擺新設施",
+      "outputs": []
+    },
+    "data": {
+      "state": "待命",
+      "doing": "",
+      "outputs": []
+    }
   },
-  "plan": {
-   "state": "待命",
-   "doing": "",
-   "outputs": []
-  },
-  "script": {
-   "state": "待命",
-   "doing": "",
-   "outputs": []
-  },
-  "art": {
-   "state": "待命",
-   "doing": "",
-   "outputs": []
-  },
-  "data": {
-   "state": "待命",
-   "doing": "",
-   "outputs": []
+  "decisions": [],
+  "routines": [
+    {
+      "when": "每天中午 12 點",
+      "what": "布布脆文草稿（要你回「發」才發）"
+    },
+    {
+      "when": "平日早上 8:15 左右",
+      "what": "早盤報告"
+    },
+    {
+      "when": "平日晚上 8:45 左右",
+      "what": "夜盤報告"
+    }
+  ],
+  "doneToday": {
+    "date": "2026-10-31",
+    "items": [
+      "辦公室搬到新網址並加上來訪計數和留言板",
+      "三篇脆文底下補上新網址回覆",
+      "看完參考影片並說明做法",
+      "派工台上線"
+    ]
   }
- },
- "decisions": [],
- "routines": [
-  {
-   "when": "每天中午 12 點",
-   "what": "布布脆文草稿（要你回「發」才發）"
-  },
-  {
-   "when": "平日早上 8:15 左右",
-   "what": "早盤報告"
-  },
-  {
-   "when": "平日晚上 8:45 左右",
-   "what": "夜盤報告"
-  }
- ],
- "doneToday": {
-  "date": "2026-10-31",
-  "items": [
-   "辦公室搬到新網址並加上來訪計數和留言板",
-   "三篇脆文底下補上新網址回覆",
-   "看完參考影片並說明做法",
-   "派工台上線"
-  ]
- }
 }
