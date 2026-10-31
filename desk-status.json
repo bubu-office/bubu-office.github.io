@@ -1,14 +1,10 @@
 {
- "updatedAt": "2026-11-01 00:36",
+ "updatedAt": "2026-11-01 00:40",
  "currentTask": "",
  "tasks": [
   {
    "title": "派工台上線",
    "state": "完成"
-  },
-  {
-   "title": "測試：派工台連線測試，請忽略",
-   "state": "等你確認"
   }
  ],
  "members": {
